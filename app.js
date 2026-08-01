@@ -64,11 +64,14 @@ function renderPage(data) {
   }).join('');
 
   document.getElementById('edu-row').innerHTML = data.about.education.map(function(e) {
+    var location = e.location ? '<div class="edu-detail">' + esc(e.location) + '</div>' : '';
+    var detail = e.detail ? '<div class="edu-detail">' + esc(e.detail) + '</div>' : '';
     return '<div class="edu-card">' +
       '<div class="edu-deg">' + esc(e.degree) + '</div>' +
       '<div class="edu-school">' + esc(e.school) + '</div>' +
-      '<div class="edu-detail">' + esc(e.detail) + '</div>' +
-      '<div class="edu-detail" style="margin-top:0.35rem;">' + esc(e.dates) + '</div>' +
+      location +
+      detail +
+      '<div class="edu-detail" style="margin-top:0.35rem;">' + esc(e.graduated) + '</div>' +
       '</div>';
   }).join('');
 

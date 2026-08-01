@@ -48,14 +48,14 @@
       {
         "degree": "M.S. Automotive Engineering",
         "school": "Clemson University International Center for Automotive Research (CU-ICAR)",
-        "detail": "Concentration: Structures · Greenville, SC · CGPA 3.85/4.00",
-        "dates": "Aug 2024 – Aug 2026"
+        "location": "Greenville, SC",
+        "detail": "Concentration: Structures · CGPA 3.85/4.00",
+        "graduated": "Graduated August 2026"
       },
       {
         "degree": "B.E. Mechanical Engineering",
         "school": "Shivaji University, Kolhapur, India",
-        "detail": "CGPA 7.92/10",
-        "dates": "Jun 2018 – Jun 2022"
+        "graduated": "Graduated 2022"
       }
     ]
   },
