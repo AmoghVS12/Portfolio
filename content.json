@@ -1,0 +1,306 @@
+{
+  "site": {
+    "title": "Amogh V. Sahasrabuddhe, Automotive Engineer",
+    "logo": "AVS",
+    "footerName": "© 2026 Amogh V. Sahasrabuddhe",
+    "footerRole": "Automotive Engineer · CU-ICAR"
+  },
+
+  "hero": {
+    "eyebrow": "MSc. Automotive Engineering · CU-ICAR",
+    "nameLine1": "Amogh",
+    "nameLine2": "Sahasrabuddhe",
+    "title": "Mechanical Design · Simulation · EV Systems",
+    "bio": "Simulation-driven engineer specializing in digital-twin workflows, structural optimization, and thermal management for next-generation electric vehicles.",
+    "image": "images/hero.jpg"
+  },
+
+  "about": {
+    "eyebrowNum": "01, About",
+    "headingLine1": "Engineer.",
+    "headingEm": "Problem Solver.",
+    "photo": "images/about-photo.jpg",
+    "photoLabel": "Amogh V. Sahasrabuddhe",
+    "bio": "I'm an automotive engineer passionate about electric mobility and advanced vehicle design. I specialize in simulation-driven development, integrating digital-twin workflows, structural optimization, and thermal management to create efficient, manufacturable vehicle systems.",
+    "skills": [
+      {
+        "icon": "⚙️",
+        "name": "Mechanical Design",
+        "desc": "3D modeling, GD&T, packaging, CATIA V6, Siemens NX, SolidWorks"
+      },
+      {
+        "icon": "🔬",
+        "name": "Simulation & Analysis",
+        "desc": "ANSYS, MATLAB, FEA (Structural & Thermal)"
+      },
+      {
+        "icon": "🔗",
+        "name": "PLM & Digital Twin",
+        "desc": "Siemens Teamcenter, ENOVIA, 3DEXPERIENCE lifecycle management, JIRA, Confluence"
+      },
+      {
+        "icon": "📐",
+        "name": "Validation & Process",
+        "desc": "DFMEA, DFM/DFA, Tolerance Stack-Up Analysis, Design Validation, Rapid Prototyping"
+      }
+    ],
+    "education": [
+      {
+        "degree": "M.S. Automotive Engineering",
+        "school": "Clemson University International Center for Automotive Research (CU-ICAR)",
+        "detail": "Concentration: Structures · Greenville, SC · CGPA 3.85/4.00",
+        "dates": "Aug 2024 – Aug 2026"
+      },
+      {
+        "degree": "B.E. Mechanical Engineering",
+        "school": "Shivaji University, Kolhapur, India",
+        "detail": "CGPA 7.92/10",
+        "dates": "Jun 2018 – Jun 2022"
+      }
+    ]
+  },
+
+  "experience": {
+    "eyebrowNum": "02, Experience",
+    "headingLine1": "Where I've",
+    "headingEm": "Built Things",
+    "items": [
+      {
+        "id": "tesla",
+        "num": "01",
+        "company": "Tesla, Inc.",
+        "role": "Mechanical Design Engineer Intern",
+        "location": "Battery Engineering · Palo Alto, CA",
+        "badge": "Current",
+        "dates": "Jan 2026 – Present",
+        "summary": "Design validation, sealing and busbar redesign, and root-cause diagnosis for high-voltage battery systems, supporting design release across cross-functional teams.",
+        "bullets": [
+          "Engineered copper-alternative busbar with phase change material, calibrated laser weld parameters, and drove supplier stamping process for production, improving temperature performance by 16%, mass by 75%, and cost ~$4M/year.",
+          "Redesigned aluminum serpentine cooling tubes to meet module packaging constraints, performed thermal simulations to achieve core temperature targets, coordinated with supplier on manufacturing limits and released updated CAD and drawings; reducing module width by 10 mm (5%).",
+          "Performed RSS clash stack-up tolerance analysis and vibration tests to diagnose and resolve a legacy vehicle service issue, eliminating component interference and avoiding $10/vehicle in service costs."
+        ],
+        "gallery": [
+          { "image": "images/exp-tesla-1.jpg", "label": "Battery Pack Engineering", "shape": "wide" },
+          { "image": "images/exp-tesla-2.jpg", "label": "Tesla Vehicle Systems", "shape": "wide" }
+        ],
+        "galleryCols": 2,
+        "deepDive": {
+          "eyebrow": "01, Experience · Current",
+          "sectionLabel": "Additional Context",
+          "bullets": [
+            "Redesigned LV passthrough seal with supplier to enable in-place replacement instead of scrapping the assembly, saving $1.50/vehicle.",
+            "Led supplier change on HV PCBA enclosure seal, running leak and reliability testing before production release.",
+            "Led design modification for 12V passthrough sealing, coordinated with GSM, SIE, and supplier to define requirements and drive release; developed DFMEA-driven test fixtures to validate assembly integrity.",
+            "Beyond the individual fixes, I stayed embedded in the broader battery engineering release cycle, design validation, sealing verification, and cross-functional documentation, making sure every deliverable was structured for handoff and met automotive release standards.",
+            "Working at Tesla meant every decision had downstream consequences at fleet scale. That reality shaped how I approached even the smallest fixture design or dimensional check, precision wasn't optional."
+          ],
+          "images": [
+            { "image": "images/deep-tesla-1.png", "label": "Battery Engineering" },
+            { "image": "images/deep-tesla-2.jpeg", "label": "Vehicle Systems" }
+          ],
+          "imgCols": 2
+        }
+      },
+      {
+        "id": "do17",
+        "num": "02",
+        "company": "Deep Orange 17",
+        "role": "Mechanical Design & Integration Lead",
+        "location": "CU-ICAR · Greenville, SC",
+        "badge": "Ongoing",
+        "dates": "Jan 2025 – Dec 2025",
+        "summary": "Mechanical Design and Integration Lead for a 20-engineer energy-positive solar electric vehicle program, harvesting more energy than it consumes over its full drive cycle.",
+        "bullets": [
+          "Developed spaceframe chassis architecture from requirements through FEA validation; evaluated alternative structures and selected the final design, achieving 13% improvement in torsional stiffness and 7 kg mass reduction.",
+          "Coordinated digital twin workflows through NX/Teamcenter, maintained BOM and released updated CAD and drawings enabling early packaging validation and reducing rework by 20%.",
+          "Designed battery radiator mounting structure and ram air inlet ducting; CFD-validated against packaging and thermal performance specs, reducing parasitic cooling power by 13%."
+        ],
+        "gallery": [
+          { "image": "images/exp-do17-1.jpg", "label": "Spaceframe FEA Analysis", "shape": "wide" },
+          { "image": "images/exp-do17-2.jpg", "label": "Deep Orange Team", "shape": "wide" }
+        ],
+        "galleryCols": 2,
+        "deepDive": {
+          "eyebrow": "02, Experience · Ongoing",
+          "sectionLabel": "Behind the Work",
+          "bullets": [
+            "Led mechanical systems integration across a 20-engineer solar EV program; translated vehicle-level targets into subsystem specifications for the vehicle, with design ownership of chassis, suspension, and thermal subsystems.",
+            "Conducted DFMEA across all four owned subsystems, integrating identified risk mitigations into final designs; managed configuration and BOM in Teamcenter throughout the development lifecycle.",
+            "An energy-positive vehicle is a systems problem, not just an engineering one. Every kilogram saved on the chassis is more range. Every percentage point of thermal efficiency is more energy harvested. The margins are tight and every subsystem decision connects to the next.",
+            "Coordinating a 20-engineer program through a single digital twin wasn't just a workflow choice, it was the only way to catch packaging conflicts before they became late-stage metal changes. The 20% rework reduction wasn't a target, it was a byproduct of doing integration right."
+          ],
+          "images": [
+            { "image": "images/deep-do17-1.jpeg", "label": "Deep Orange 17, Vehicle" }
+          ],
+          "imgCols": 2
+        }
+      },
+      {
+        "id": "bwc",
+        "num": "03",
+        "company": "DOE–Stellantis Battery Workforce Challenge",
+        "role": "Structural Design Engineer",
+        "location": "Clemson University · DOE Program",
+        "badge": "DOE",
+        "dates": "Mar 2025 – Nov 2025",
+        "summary": "U.S. Department of Energy program, redesigning and validating a next-generation EV battery pack for improved manufacturability, thermal safety, and structural integrity.",
+        "bullets": [
+          "Redesigned module architecture for compact packaging, improving structural stiffness by 18% and reducing assembly complexity by 15%.",
+          "Selected and validated 3D-printed ABS baseplates for cell retention, balancing stiffness, weight, and manufacturability, reducing pack mass by 8%.",
+          "Replaced busbars with HV connectors to reduce resistance and simplify assembly, achieving 10% mass reduction."
+        ],
+        "gallery": [
+          { "image": "images/exp-bwc-1.jpg", "label": "Thermal FEA", "shape": "sq" },
+          { "image": "images/exp-bwc-2.jpg", "label": "Cell Module", "shape": "sq" },
+          { "image": "images/exp-bwc-3.jpg", "label": "Pack Design", "shape": "sq" }
+        ],
+        "galleryCols": 3,
+        "deepDive": {
+          "eyebrow": "03, Experience · DOE Program",
+          "sectionLabel": "Additional Context",
+          "bullets": [
+            "The hardest part of a modular battery pack isn't the housing, it's the interfaces. I designed the cell-to-module and module-to-pack connections with assembly ease and maintenance access front of mind from day one, not as an afterthought.",
+            "Mechanical packaging doesn't happen in isolation. I worked directly with electrical and controls teams to make sure the housing design accommodated BMS hardware, cooling channels, and sensor layouts, structural performance was only one piece of the puzzle."
+          ],
+          "images": [
+            { "image": "images/deep-bwc-1.png", "label": "Pack Design" },
+            { "image": "images/deep-bwc-2.png", "label": "Module Assembly" },
+            { "image": "images/deep-bwc-3.png", "label": "Thermal Analysis" }
+          ],
+          "imgCols": 3
+        }
+      },
+      {
+        "id": "dsgs",
+        "num": "04",
+        "company": "Dassault Systèmes",
+        "role": "Quality Engineering Associate",
+        "location": "DSGS · Pune, India",
+        "badge": "DSGS",
+        "dates": "Jul 2022 – Jul 2024",
+        "logos": [
+          { "class": "logo-3dx", "label": "3DEXPERIENCE" },
+          { "class": "logo-catia", "label": "CATIA" }
+        ],
+        "summary": "Inside the team that builds the tools other engineers rely on, quality testing CATIA V6 features before they reach automotive OEMs across the world.",
+        "bullets": [
+          "Created validation reports and technical documentation and user manuals supporting OEM adoption of CATIA.",
+          "Delivered technical demonstrations of CATIA V6 to automotive OEMs for system integration and manufacturability."
+        ],
+        "gallery": [],
+        "galleryCols": 2
+      },
+      {
+        "id": "trident",
+        "num": "05",
+        "company": "Trident Racing",
+        "role": "Chief Design Engineer",
+        "location": "Formula SAE · Maharashtra, India",
+        "badge": "FSAE",
+        "dates": "Aug 2018 – Jun 2022",
+        "summary": "End-to-end design and integration of car #109, a combustion-powered FSAE race car built with a focus on mechanical design, system packaging, and structural validation.",
+        "bullets": [
+          "Designed and FEA-validated welded chassis and suspension components in SOLIDWORKS, performing topology optimization and weight reduction across structural assemblies for a low-volume prototype race vehicle.",
+          "Managed end-to-end vehicle build: supplier sourcing, component release, fabrication coordination, and assembly, delivering a competition-ready car within weight and packaging targets."
+        ],
+        "gallery": [
+          { "image": "images/exp-trident-1.jpg", "label": "Car #109, Top View", "shape": "tall" },
+          { "image": "images/exp-trident-2.jpg", "label": "FSAE India, Competition", "shape": "tall" },
+          { "image": "images/exp-trident-3.jpg", "label": "Car #109, Track Day", "shape": "tall" },
+          { "image": "images/exp-trident-4.jpg", "label": "Race Ready", "shape": "wide" },
+          { "image": "images/exp-trident-5.jpg", "label": "LS-Dyna FEA, Spaceframe", "shape": "wide" },
+          { "image": "images/exp-trident-6.jpg", "label": "Workshop Build", "shape": "wide" },
+          { "image": "images/exp-trident-7.jpg", "label": "Brake Disc Thermal FEA", "shape": "wide" }
+        ],
+        "galleryCols": 3,
+        "deepDive": {
+          "eyebrow": "05, Experience · FSAE",
+          "sectionLabel": "Behind the Work",
+          "bullets": [
+            "Car #109 was our team's most ambitious build, not because of a single big innovation, but because every system was pushed simultaneously. Suspension, chassis, intake, brakes: all optimized in parallel, all validated in simulation before metal was cut.",
+            "The 25% improvement in team design turnaround didn't happen by accident. Teaching members to think in simulation, not just use software, changed how the whole team approached decisions."
+          ],
+          "images": [
+            { "image": "images/deep-trident-1.png", "label": "Structural FEA" },
+            { "image": "images/deep-trident-2.jpg", "label": "Car #109" },
+            { "image": "images/deep-trident-3.jpg", "label": "FSAE India, Competition" },
+            { "image": "images/deep-trident-4.jpeg", "label": "Workshop Build" }
+          ],
+          "imgCols": 2
+        }
+      }
+    ]
+  },
+
+  "projects": {
+    "eyebrowNum": "03, Projects",
+    "headingLine1": "Selected",
+    "headingEm": "Work",
+    "items": [
+      {
+        "id": "skateboard",
+        "num": "P / 01",
+        "title": "Lightweight Skateboard Design",
+        "role": "Team Lead · CU-ICAR",
+        "image": "images/proj-skateboard.jpg",
+        "desc": "Topology and topography optimization targeting <25 mm deflection under 80 kg static load. FEA across PLA, ABS, ABS-CF, PA6-CF. Final prototype: 10.2 mm hybrid deck (3D-printed ABS core + vacuum-infused CF), 762 g, validated via ASTM D790.",
+        "tags": ["FEA", "Topology Opt.", "HyperMesh", "Carbon Fiber"],
+        "deepDive": {
+          "eyebrow": "Project 01, Team Lead · CU-ICAR",
+          "subtitle": "Topology & Topography Optimization · ASTM D790 Validated",
+          "sectionLabel": "The Full Story",
+          "bullets": [
+            "The first topology pass was aggressive, mass dropped from ~1,300 g to ~360 g. But deflection violated the 25 mm limit and the geometry wasn't manufacturable. A second run near 600 g also failed. The real unlock came from adding non-design regions at the truck mounts, which gave the optimizer room to find a layout that actually worked.",
+            "In HyperMesh I tested PLA, ABS, ABS-CF, and PA6-CF side by side. CF-wrapped ABS won on stiffness-to-weight and was the only material that hit the structural target without becoming unmanufacturable.",
+            "The final prototype measured 10–12 mm deflection under load, well inside the 25 mm limit, and was cross-validated against ASTM D790 flexural testing. The simulation and the physical result matched closely.",
+            "Certain topology-derived cavities were intentionally left unmachined to comply with lab safety protocols due to the absence of a carbon fibre particle collector, a real-world constraint that shaped the final design."
+          ],
+          "images": [
+            { "image": "images/deep-skateboard-1.png", "label": "Topology Optimization Result" },
+            { "image": "images/deep-skateboard-2.jpg", "label": "Physical Prototype" }
+          ],
+          "imgCols": 2
+        }
+      },
+      {
+        "id": "do17-project",
+        "num": "P / 02",
+        "title": "Solar Electric Vehicle, DO17",
+        "role": "Mechanical Design & Integration Lead · Clemson University",
+        "image": "images/proj-do17.jpg",
+        "desc": "Energy-positive SEV harvesting more energy than consumed. 20-engineer program unified via NX/Teamcenter digital twin. 13% torsional stiffness gain and 7 kg mass reduction on chassis; 13% reduction in parasitic cooling power.",
+        "tags": ["Digital Twin", "Siemens NX", "STAR-CCM+", "Solar EV"]
+      },
+      {
+        "id": "bwc-project",
+        "num": "P / 03",
+        "title": "HV Battery Pack Redesign",
+        "role": "Structural Design Engineer · DOE–Stellantis Challenge",
+        "image": "images/proj-bwc.jpg",
+        "desc": "Next-gen EV battery pack for manufacturability, thermal safety, and structural integrity. 18% structural stiffness gain, 15% lower assembly complexity, and 8% pack mass reduction via 3D-printed ABS baseplates.",
+        "tags": ["Battery Pack", "ANSYS", "CFD", "DFM/DFA"]
+      },
+      {
+        "id": "trident-project",
+        "num": "P / 04",
+        "title": "Formula SAE Race Car #109",
+        "role": "Chief Design Engineer · Trident Racing",
+        "image": "images/proj-trident.jpg",
+        "desc": "Full combustion race car from concept to competition. 12% stiffness gain on spaceframe. +32% airflow on intake manifold. 25% brake temp reduction. 15% suspension weight saving at 2× SF.",
+        "tags": ["Race Car", "LS-Dyna", "CFD", "SolidWorks"]
+      }
+    ]
+  },
+
+  "contact": {
+    "eyebrowNum": "04, Contact",
+    "headingLine1": "Let's Build",
+    "headingEm": "Great",
+    "quote": "\"A team is the most powerful tool an engineer can design.\"",
+    "email": "avsahas@clemson.edu",
+    "phone": "(864) 386-1852",
+    "phoneHref": "8643861852",
+    "linkedin": "https://www.linkedin.com/in/amogh-sahasrabuddhe/",
+    "location": "Greenville, SC"
+  }
+}
