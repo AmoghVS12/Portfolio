@@ -71,8 +71,7 @@
         "company": "Tesla, Inc.",
         "role": "Mechanical Design Engineer Intern",
         "location": "Battery Engineering · Palo Alto, CA",
-        "badge": "Current",
-        "dates": "Jan 2026 – Present",
+        "dates": "Jan 2026 – Jul 2026",
         "summary": "Design validation, sealing and busbar redesign, and root-cause diagnosis for high-voltage battery systems, supporting design release across cross-functional teams.",
         "bullets": [
           "Engineered copper-alternative busbar with phase change material, calibrated laser weld parameters, and drove supplier stamping process for production, improving temperature performance by 16%, mass by 75%, and cost ~$4M/year.",
@@ -85,7 +84,7 @@
         ],
         "galleryCols": 2,
         "deepDive": {
-          "eyebrow": "01, Experience · Current",
+          "eyebrow": "01, Experience",
           "sectionLabel": "Additional Context",
           "bullets": [
             "Redesigned LV passthrough seal with supplier to enable in-place replacement instead of scrapping the assembly, saving $1.50/vehicle.",
@@ -107,7 +106,6 @@
         "company": "Deep Orange 17",
         "role": "Mechanical Design & Integration Lead",
         "location": "CU-ICAR · Greenville, SC",
-        "badge": "Ongoing",
         "dates": "Jan 2025 – Dec 2025",
         "summary": "Mechanical Design and Integration Lead for a 20-engineer energy-positive solar electric vehicle program, harvesting more energy than it consumes over its full drive cycle.",
         "externalLink": {
@@ -125,7 +123,7 @@
         ],
         "galleryCols": 2,
         "deepDive": {
-          "eyebrow": "02, Experience · Ongoing",
+          "eyebrow": "02, Experience",
           "sectionLabel": "Behind the Work",
           "bullets": [
             "Designed a 15% lighter CNC-machined steering knuckle and hub assembly, applying GD&T, FEA, and DFM/DFA to ensure structural integrity, and created drawings to ASME Y14.5 standards for manufacturing.",
