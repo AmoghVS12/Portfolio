@@ -76,7 +76,6 @@
         "summary": "Design validation, sealing and busbar redesign, and root-cause diagnosis for high-voltage battery systems, supporting design release across cross-functional teams.",
         "bullets": [
           "Engineered copper-alternative busbar with phase change material, calibrated laser weld parameters, and drove supplier stamping process for production, improving temperature performance by 16%, mass by 75%, and cost ~$4M/year.",
-          "Redesigned aluminum serpentine cooling tubes to meet module packaging constraints, performed thermal simulations to achieve core temperature targets, coordinated with supplier on manufacturing limits and released updated CAD and drawings; reducing module width by 10 mm (5%).",
           "Performed RSS clash stack-up tolerance analysis and vibration tests to diagnose and resolve a legacy vehicle service issue, eliminating component interference and avoiding $10/vehicle in service costs."
         ],
         "gallery": [
