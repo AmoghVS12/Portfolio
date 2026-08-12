@@ -118,10 +118,11 @@
           "Designed battery radiator mounting structure and ram air inlet ducting; CFD-validated against packaging and thermal performance specs, reducing parasitic cooling power by 13%."
         ],
         "gallery": [
+          { "image": "images/exp-do17-0.png", "label": "Deep Orange 17, CU-ICAR", "shape": "wide" },
           { "image": "images/exp-do17-1.jpg", "label": "Spaceframe FEA Analysis", "shape": "wide" },
           { "image": "images/exp-do17-2.jpg", "label": "Deep Orange Team", "shape": "wide" }
         ],
-        "galleryCols": 2,
+        "galleryCols": 3,
         "deepDive": {
           "eyebrow": "02, Experience",
           "sectionLabel": "Behind the Work",
