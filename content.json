@@ -76,6 +76,7 @@
         "summary": "Design validation, sealing and busbar redesign, and root-cause diagnosis for high-voltage battery systems, supporting design release across cross-functional teams.",
         "bullets": [
           "Engineered copper-alternative busbar with phase change material, calibrated laser weld parameters, and drove supplier stamping process for production, improving temperature performance by 16%, mass by 75%, and cost ~$4M/year.",
+          "Designed ergonomic, portable hose clip installation jig in 3DEXPERIENCE (CATIA V6), achieving 30% weight reduction through material selection and FEA while improving field serviceability over the existing jig.",
           "Performed RSS clash stack-up tolerance analysis and vibration tests to diagnose and resolve a legacy vehicle service issue, eliminating component interference and avoiding $10/vehicle in service costs."
         ],
         "gallery": [
