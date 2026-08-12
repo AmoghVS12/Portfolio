@@ -111,7 +111,7 @@
         "dates": "Jan 2025 – Dec 2025",
         "summary": "Mechanical Design and Integration Lead for a 20-engineer energy-positive solar electric vehicle program, harvesting more energy than it consumes over its full drive cycle.",
         "bullets": [
-          "Developed spaceframe chassis architecture from requirements through FEA validation; evaluated alternative structures and selected the final design, achieving 13% improvement in torsional stiffness and 7 kg mass reduction.",
+          "Designed and validated a metal-composite spaceframe chassis in Siemens NX, reducing mass by 20 kg while meeting stiffness and crash safety targets through FEA and topology optimization.",
           "Coordinated digital twin workflows through NX/Teamcenter, maintained BOM and released updated CAD and drawings enabling early packaging validation and reducing rework by 20%.",
           "Designed battery radiator mounting structure and ram air inlet ducting; CFD-validated against packaging and thermal performance specs, reducing parasitic cooling power by 13%."
         ],
@@ -124,6 +124,7 @@
           "eyebrow": "02, Experience · Ongoing",
           "sectionLabel": "Behind the Work",
           "bullets": [
+            "Designed a 15% lighter CNC-machined steering knuckle and hub assembly, applying GD&T, FEA, and DFM/DFA to ensure structural integrity, and created drawings to ASME Y14.5 standards for manufacturing.",
             "Led mechanical systems integration across a 20-engineer solar EV program; translated vehicle-level targets into subsystem specifications for the vehicle, with design ownership of chassis, suspension, and thermal subsystems.",
             "Conducted DFMEA across all four owned subsystems, integrating identified risk mitigations into final designs; managed configuration and BOM in Teamcenter throughout the development lifecycle.",
             "An energy-positive vehicle is a systems problem, not just an engineering one. Every kilogram saved on the chassis is more range. Every percentage point of thermal efficiency is more energy harvested. The margins are tight and every subsystem decision connects to the next.",
@@ -200,8 +201,9 @@
         "dates": "Aug 2018 – Jun 2022",
         "summary": "End-to-end design and integration of car #109, a combustion-powered FSAE race car built with a focus on mechanical design, system packaging, and structural validation.",
         "bullets": [
-          "Designed and FEA-validated welded chassis and suspension components in SOLIDWORKS, performing topology optimization and weight reduction across structural assemblies for a low-volume prototype race vehicle.",
-          "Managed end-to-end vehicle build: supplier sourcing, component release, fabrication coordination, and assembly, delivering a competition-ready car within weight and packaging targets."
+          "Designed and manufactured a spaceframe chassis, performing FEA and topology optimization to make it 7 kg lighter while maintaining stiffness.",
+          "Performed brake rotor thermal analysis, reducing peak disc temperature by 18% and improving thermal uniformity by 25% across the rotor surface under repeated braking loads.",
+          "Designed a complete hydraulic brake system, rotor, calipers, master cylinder, and pedal box; developed a DVP&R-style test plan and ran ANSYS thermal analysis on a drilled-and-vented rotor, validating the design against FSAE competition braking safety requirements."
         ],
         "gallery": [
           { "image": "images/exp-trident-1.jpg", "label": "Car #109, Top View", "shape": "tall" },
@@ -217,6 +219,8 @@
           "eyebrow": "05, Experience · FSAE",
           "sectionLabel": "Behind the Work",
           "bullets": [
+            "Designed and FEA-validated welded chassis and suspension components in SOLIDWORKS, performing topology optimization and weight reduction across structural assemblies for a low-volume prototype race vehicle.",
+            "Managed end-to-end vehicle build: supplier sourcing, component release, fabrication coordination, and assembly, delivering a competition-ready car within weight, cost, and packaging targets.",
             "Car #109 was our team's most ambitious build, not because of a single big innovation, but because every system was pushed simultaneously. Suspension, chassis, intake, brakes: all optimized in parallel, all validated in simulation before metal was cut.",
             "The 25% improvement in team design turnaround didn't happen by accident. Teaching members to think in simulation, not just use software, changed how the whole team approached decisions."
           ],
