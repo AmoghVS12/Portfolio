@@ -110,6 +110,10 @@
         "badge": "Ongoing",
         "dates": "Jan 2025 – Dec 2025",
         "summary": "Mechanical Design and Integration Lead for a 20-engineer energy-positive solar electric vehicle program, harvesting more energy than it consumes over its full drive cycle.",
+        "externalLink": {
+          "url": "https://www.clemson.edu/cecas/deeporange/projects/do17.html",
+          "label": "Official Project Page"
+        },
         "bullets": [
           "Designed and validated a metal-composite spaceframe chassis in Siemens NX, reducing mass by 20 kg while meeting stiffness and crash safety targets through FEA and topology optimization.",
           "Coordinated digital twin workflows through NX/Teamcenter, maintained BOM and released updated CAD and drawings enabling early packaging validation and reducing rework by 20%.",

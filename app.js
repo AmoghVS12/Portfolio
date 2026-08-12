@@ -91,6 +91,11 @@ function renderPage(data) {
       '<button class="read-more-btn" onclick="openModal(\'' + x.id + '\')">Read More ' +
       '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>'
       : '';
+    var externalBtn = x.externalLink ?
+      '<a class="external-btn" href="' + esc(x.externalLink.url) + '" target="_blank" rel="noopener noreferrer">' + esc(x.externalLink.label) +
+      ' <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>'
+      : '';
+    var btnRow = (deepDiveBtn || externalBtn) ? '<div class="exp-btn-row">' + deepDiveBtn + externalBtn + '</div>' : '';
 
     return '<div class="exp-item">' +
       '<div class="exp-left">' +
@@ -105,7 +110,7 @@ function renderPage(data) {
       '<div class="exp-right fade">' +
         '<p class="exp-summary">' + esc(x.summary) + '</p>' +
         '<ul class="exp-bullets">' + renderBullets(x.bullets) + '</ul>' +
-        deepDiveBtn +
+        btnRow +
         renderGallery(x.gallery, x.galleryCols) +
       '</div>' +
     '</div>';
