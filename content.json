@@ -74,7 +74,7 @@
         "dates": "Jan 2026 – Jul 2026",
         "summary": "Design validation, sealing and busbar redesign, and root-cause diagnosis for high-voltage battery systems, supporting design release across cross-functional teams.",
         "bullets": [
-          "Engineered copper-alternative busbar with phase change material, calibrated laser weld parameters, and drove supplier stamping process for production, improving temperature performance by 16%, mass by 75%, and cost ~$4M/year.",
+          "Engineered a cheaper alternative busbar, calibrated laser weld parameters, and drove supplier stamping process for production, improving temperature performance by 16%, mass by 75%, and cost ~$4M/year.",
           "Designed ergonomic, portable hose clip installation jig in 3DEXPERIENCE (CATIA V6), achieving 30% weight reduction through material selection and FEA while improving field serviceability over the existing jig.",
           "Performed RSS clash stack-up tolerance analysis and vibration tests to diagnose and resolve a legacy vehicle service issue, eliminating component interference and avoiding $10/vehicle in service costs."
         ],
@@ -188,11 +188,22 @@
         ],
         "summary": "Inside the team that builds the tools other engineers rely on, quality testing CATIA V6 features before they reach automotive OEMs across the world.",
         "bullets": [
-          "Created validation reports and technical documentation and user manuals supporting OEM adoption of CATIA.",
-          "Delivered technical demonstrations of CATIA V6 to automotive OEMs for system integration and manufacturability."
+          "Conducted quality testing of CATIA, DELMIA, and ENOVIA software features against product enhancement specifications, ensuring accurate simulation, modeling, and analysis for automotive and aerospace design applications.",
+          "Collaborated with cross-functional engineering teams to optimize mechanical design workflows, system integration, and product development cycles, improving CAD usability for automotive applications.",
+          "Delivered technical demonstrations to automotive OEMs highlighting mechanical design validation, system integration, and manufacturability analysis using CATIA V6."
         ],
         "gallery": [],
-        "galleryCols": 2
+        "galleryCols": 2,
+        "deepDive": {
+          "eyebrow": "04, Experience",
+          "sectionLabel": "Additional Context",
+          "bullets": [
+            "Managed Bill of Materials (BOM) creation and configuration in ENOVIA, streamlining design documentation and procurement processes for mechanical assemblies.",
+            "Prepared PER (Product Enhancement Request) documentation from customer requirements, analyzing potential product functionalities and communicating them with the R&D team."
+          ],
+          "images": [],
+          "imgCols": 2
+        }
       },
       {
         "id": "trident",
